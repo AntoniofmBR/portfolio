@@ -1,7 +1,7 @@
 'use client'
 
 import Image from 'next/image';
-import { GithubLogo, InstagramLogo, LinkedinLogo } from 'phosphor-react';
+import { GithubIcon } from 'lucide-react';
 
 import logo from '@/public/logo.png'
 
@@ -21,10 +21,9 @@ export function Footer() {
         />
 
         <div className='flex items-center justify-center gap-3' >
-          <GithubLogo
+          <GithubIcon
             className='hover:scale-105 transition-all'
             size={ 32 }
-            weight='fill'
             onClick={ () => handleNavigateToLink('https://github.com/AntoniofmBR') }
           />
         </div>

@@ -41,4 +41,20 @@ export const projects: Project[] = [
     alt: "Veil Of Echoes Wallpaper",
     url: "https://veil-of-echoes.vercel.app/"
   },
+  {
+    title: "🦷 OdontoPro",
+    description: "A SaaS where dentists manage their schedules, services, clients and more.",
+    tags: ["React", "Next", "TypeScript"],
+    src: "https://github.com/AntoniofmBR/odontopro/blob/main/public/wallpaper.png?raw=true",
+    alt: "OdontoPro Wallpaper",
+    url: "https://odontopro-green.vercel.app/"
+  },
+  {
+    title: "📑 Kantask",
+    description: "A Kanban system where users manage their tasks, facilitating day-to-day organization.",
+    tags: ["React", "Tailwind CSS", "TypeScript"],
+    src: "https://github.com/AntoniofmBR/kantask/raw/main/public/wallpaper.png",
+    alt: "Kantask Wallpaper",
+    url: "https://kantask.vercel.app/"
+  },
 ];

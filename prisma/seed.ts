@@ -14,7 +14,7 @@ async function main() {
     const project = await prisma.project.create({
       data: p,
     });
-    console.log(`Projeto criado: ${project.title} (ID: ${project.id})`);
+    console.log(`Projeto criado: ${ project.title } (ID: ${ project.id })`);
   }
   console.log(`Seeding finalizado.`);
 }

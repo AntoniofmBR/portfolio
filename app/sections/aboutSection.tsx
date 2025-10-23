@@ -1,7 +1,7 @@
 'use client'
 
 import Image from 'next/image';
-import { CodeSimple, Brain ,Lightning } from 'phosphor-react'
+import { Code, Brain, Zap } from 'lucide-react'
 
 import img from '@/public/about.png'
 
@@ -32,21 +32,21 @@ export function AboutSection({ id }: { id: string }) {
           </p>
           <ul className='flex flex-col md:flex-row items-center justify-between mt-5' >
             <li className='flex flex-col md:flex-row items-center justify-center gap-3' >
-              <CodeSimple size={ 40 } weight='bold' className='text-green' />
+              <Code size={ 40 } className='text-green' />
               <div className='flex flex-col gap-1 font-semibold' >
                 <p className='text-yellow text-sm'> 5+ Core Technologies </p>
                 <p className='text-white text-sm mb-6 md:mb-0'> React, Next.js, Node.js, PostgreSQL, etc. </p>
               </div>
             </li>
             <li className='flex flex-col md:flex-row items-center justify-center gap-3' >
-              <Brain size={ 40 } weight='fill' className='text-green' />
+              <Brain size={ 40 } className='text-green' />
               <div className='flex flex-col gap-1' >
                 <p className='text-yellow text-sm'> 1+ Year Experience </p>
                 <p className='text-white text-sm mb-6 md:mb-0'> With considerable experience in the market </p>
               </div>
             </li>
             <li className='flex flex-col md:flex-row items-center justify-center gap-3' >
-              <Lightning size={ 40 } weight='fill' className='text-green' />
+              <Zap size={ 40 } className='text-green' />
               <div className='flex flex-col gap-1' >
                 <p className='text-yellow text-sm'> Fast & Scalable Systems </p>
                 <p className='text-white text-sm mb-6 md:mb-0'> Highlight that your systems are optimized and production-ready </p>

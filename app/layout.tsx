@@ -24,7 +24,7 @@ export default function RootLayout({
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </head>
       <body
-        className={`${ getCairo.variable } px-14 py-7 antialiased`}
+        className={`${ getCairo.variable } px-7 md:px-14 py-7 antialiased`}
       >
         { children }
       </body>

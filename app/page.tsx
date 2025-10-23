@@ -14,7 +14,7 @@ export default async function Home() {
 
   return (
     <main className='flex flex-col w-full gap-12' >
-      <Header newItem={ <ButtonSendMessage variant='primary'  /> } />
+      <Header newItem={ <ButtonSendMessage variant='primary' /> } />
       <HomeSection id='home' />
       <AboutSection id='about' />
       <ProjectsSection id='projects' someProjects={ someProjects } />
